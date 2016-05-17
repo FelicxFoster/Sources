@@ -3,13 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to test_docs's documentation!
+Hey! Welcome to my test docs from github.
 =====================================
+
+
+Project's home
+======
+Check for the latest release of this project on `Github`_.
+
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
+   introduction
+   installation
+   usage
 
 
 
@@ -20,3 +29,4 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
+.. _Github: http://https://github.com/suqingdong/Sources.git
