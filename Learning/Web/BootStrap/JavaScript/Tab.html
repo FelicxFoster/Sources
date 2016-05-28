@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>标签页</title>
+    <link rel="stylesheet" href="src/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <ul id="myTab" class="nav nav-tabs">
+            <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+            <li><a href="#profile" data-toggle="tab">Profile</a></li>
+            <li class="dropdown">
+                <a data-toggle="dropdown">Learning<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#python" data-toggle="tab">Python</a></li>
+                    <li><a href="#php" data-toggle="tab">PHP</a></li>
+                    <li><a href="#java" data-toggle="tab">Java</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div id="myTabContent" class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <p>I am in home page</p>
+            </div>
+            <div id="profile" class="tab-pane fade">
+                <p>Now I am in profile page</p>
+            </div>
+            <div id="python" class="tab-pane fade">
+                <p>Python Python Python</p>
+            </div>
+            <div id="php" class="tab-pane fade">
+                <p>PHP PHP PHP</p>
+            </div>
+            <div id="java" class="tab-pane fade">
+                <p>Java Java Java</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="src/jquery-2.2.3.min.js"></script>
+    <script src="src/bootstrap.min.js"></script>
+    <script>
+        $("#myTab a[href='#profile']").tab("show");
+
+        $('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
+            alert("I am going to another page");
+        })
+    </script>
+</body>
+</html>
+

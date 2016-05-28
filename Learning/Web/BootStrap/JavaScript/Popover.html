@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>弹出框</title>
+    <link rel="stylesheet" href="src/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <a tabindex="0" type="button" class="btn btn-info btn-lg" data-toggle="popover" \
+                title="popover title" data-content="popover content" data-placement="bottom" \
+                data-trigger="focus"
+        >Popover</a>
+    </div>
+
+
+<script src="src/jquery-2.2.3.min.js"></script>
+<script src="src/bootstrap.min.js"></script>
+<script>
+    $('[data-toggle="popover"]').popover();
+</script>
+</body>
+</html>
+
+

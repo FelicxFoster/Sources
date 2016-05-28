@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>折叠</title>
+    <link rel="stylesheet" href="src/bootstrap.min.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <a href="#collapseExample" class="btn btn-info" data-toggle="collapse">打开折叠</a>
+        <div class="collapse" id="collapseExample">
+            <p class="well">Hello</p>
+        </div>
+
+
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Title1</a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Hello
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Title2</a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Hello
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-info" >
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#collapse3" data-toggle="collapse" data-parent="#accordion">Title3</a>
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Hello Hello Hello
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+<script src="src/jquery-2.2.3.min.js"></script>
+<script src="src/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>
+
+
+
+

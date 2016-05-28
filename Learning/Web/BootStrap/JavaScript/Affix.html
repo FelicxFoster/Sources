@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>附加导航</title>
+    <link rel="stylesheet" href="src/bootstrap.min.css">
+
+    <style>
+        .affixed-element-top.affix {
+            top: 10px;
+        }
+        .affixed-element-top.affix-bottom {
+            position: relative;
+        }
+        .affixed-element-bottom.affix {
+            bottom: 10px;
+        }
+        .affixed-element-bottom.affix-bottom {
+            position: relative;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container" >
+        <div class="col-md-2">
+            <ul class="list-group affixed-element-top js-affixed-element-top" >
+                <li class="list-group-item"><a href="#">Python1</a></li>
+                <li class="list-group-item"><a href="#">Python2</a></li>
+                <li class="list-group-item"><a href="#">Python3</a></li>
+                <li class="list-group-item"><a href="#">Python4</a></li>
+                <li class="list-group-item"><a href="#">Python5</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-8">
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+            <p>Hello Hello Hello</p>
+
+        </div>
+
+        <div class="col-md-2 js-content">
+            <ul class="list-group affixed-element-bottom js-affixed-element-bottom" >
+                <li class="list-group-item"><a href="#">Python1</a></li>
+                <li class="list-group-item"><a href="#">Python2</a></li>
+                <li class="list-group-item"><a href="#">Python3</a></li>
+                <li class="list-group-item"><a href="#">Python4</a></li>
+                <li class="list-group-item"><a href="#">Python5</a></li>
+            </ul>
+        </div>
+    </div>
+
+<script src="src/jquery-2.2.3.min.js"></script>
+<script src="src/bootstrap.min.js"></script>
+
+<script>
+    $(function () {
+        $(".js-affixed-element-top").affix({
+            offset:{
+
+            }
+        })
+    })
+    $(function () {
+        $(".js-affixed-element-bottom").affix({
+            offset:{
+                bottom:100
+            }
+        })
+    })
+
+</script>
+
+</body>
+</html>
+
+

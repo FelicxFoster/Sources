@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>监听滚动</title>
+    <link rel="stylesheet" href="src/bootstrap.min.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="70">
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse js-navbar-scrollpy" id="myScrollpy">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#python">Python</a></li>
+                        <li><a href="#php">PHP</a></li>
+                        <li><a href="#java">Java</a></li>
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown">JavaScript <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#jquery">jQuery</a></li>
+                                <li><a href="#angular">AngularJS</a></li>
+                                <li><a href="#node">NodeJS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div style="padding-top:50px">
+            <h2 id="python">Python</h2>
+            <p>python is cute</p><p>python is cute</p><p>python is cute</p><p>python is cute</p>
+            <p>python is cute</p><p>python is cute</p><p>python is cute</p><p>python is cute</p>
+            <p>python is cute</p><p>python is cute</p><p>python is cute</p><p>python is cute</p>
+            <hr />
+
+            <h2 id="php">PHP</h2>
+            <p>PHP：Hypertext Preprocessor</p><p>PHP：Hypertext Preprocessor</p><p>PHP：Hypertext Preprocessor</p>
+            <p>PHP：Hypertext Preprocessor</p><p>PHP：Hypertext Preprocessor</p><p>PHP：Hypertext Preprocessor</p>
+            <p>PHP：Hypertext Preprocessor</p><p>PHP：Hypertext Preprocessor</p><p>PHP：Hypertext Preprocessor</p>
+            <p>PHP：Hypertext Preprocessor</p><p>PHP：Hypertext Preprocessor</p><p>PHP：Hypertext Preprocessor</p>
+            <hr />
+
+            <h2 id="java">Java</h2>
+            <p>Java is produced by Sun Microsystems</p><p>Java is produced by Sun Microsystems</p><p>Java is produced by Sun Microsystems</p>
+            <p>Java is produced by Sun Microsystems</p><p>Java is produced by Sun Microsystems</p><p>Java is produced by Sun Microsystems</p>
+            <p>Java is produced by Sun Microsystems</p><p>Java is produced by Sun Microsystems</p><p>Java is produced by Sun Microsystems</p>
+            <p>Java is produced by Sun Microsystems</p><p>Java is produced by Sun Microsystems</p><p>Java is produced by Sun Microsystems</p>
+            <hr />
+
+            <h2 id="jquery">jQuery</h2>
+            <p>jQuery</p><p>jQuery</p><p>jQuery</p><p>jQuery</p><p>jQuery</p><p>jQuery</p><p>jQuery</p><p>jQuery</p>
+            <p>jQuery</p><p>jQuery</p><p>jQuery</p><p>jQuery</p><p>jQuery</p><p>jQuery</p><p>jQuery</p><p>jQuery</p>
+            <p>jQuery</p><p>jQuery</p><p>jQuery</p><p>jQuery</p><p>jQuery</p><p>jQuery</p><p>jQuery</p><p>jQuery</p>
+            <hr />
+
+            <h2 id="angular">AngularJS</h2>
+            <p>anularjs</p><p>anularjs</p><p>anularjs</p><p>anularjs</p><p>anularjs</p><p>anularjs</p><p>anularjs</p>
+            <p>anularjs</p><p>anularjs</p><p>anularjs</p><p>anularjs</p><p>anularjs</p><p>anularjs</p><p>anularjs</p>
+            <p>anularjs</p><p>anularjs</p><p>anularjs</p><p>anularjs</p><p>anularjs</p><p>anularjs</p><p>anularjs</p>
+            <hr />
+
+            <h2 id="node">NodeJS</h2>
+            <p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p>
+            <p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p>
+            <p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p>
+            <p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p><p>nodejs</p>
+
+        </div>
+    </div>
+
+<script src="src/jquery-2.2.3.min.js"></script>
+<script src="src/bootstrap.min.js"></script>
+<script>
+    $("#myScrollpy").on('activate.bs.scrollspy', function (e) {
+        alert("Hello");
+    })
+</script>
+
+</body>
+</html>
+
+
