@@ -1,0 +1,20 @@
+var express = require('express');
+var fs = require('fs');
+
+var app = express();
+
+
+app.get('/listUsers', function(req, res) {
+	fs.readFile(__dirname+'/'+'users.json', 'utf8', function(err, data) {
+		console.log(data);
+		res.end(data);
+	});	
+})
+
+var server = app.listen(8888, function() {
+	var host = server.address().address;
+	var port = server.address().port;
+	
+	console.log("Server at %s:%s", host, port);
+	
+})
