@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}User Info{% end %}
+
+{% block content %}
+	<h2>Your infomations:</h2>
+	<p>Username: {{ user_infos[0] }}</p>
+	<p>Password: {{ user_infos[1] }}</p>
+{% end %}
