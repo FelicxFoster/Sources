@@ -45,7 +45,7 @@ def file_to_set(file_name):
     return results
 
 
-# Iterate thrrough a set, each item will be a new line in the file
+# Iterate through a set, each item will be a new line in the file
 def set_to_file(links, file):
     delete_files_contents(file)
     for link in sorted(links):
