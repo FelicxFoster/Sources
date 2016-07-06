@@ -24,7 +24,9 @@
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <link rel="top" title="test_docs 1.0 documentation" href="index.html" /> 
+    <link rel="top" title="test_docs 1.0 documentation" href="index.html" />
+    <link rel="next" title="&lt;no title&gt;" href="installation.html" />
+    <link rel="prev" title="Hey! Welcome to my document." href="index.html" /> 
   </head>
   <body role="document">
     <div class="related" role="navigation" aria-label="related navigation">
@@ -33,6 +35,12 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="installation.html" title="&lt;no title&gt;"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Hey! Welcome to my document."
+             accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">test_docs 1.0 documentation</a> &raquo;</li> 
       </ul>
     </div>  
@@ -114,11 +122,11 @@ etc.</p>
 </div>
 <div class="section" id="using-redis-as-a-message-queue">
 <h2>Using Redis as a message queue<a class="headerlink" href="#using-redis-as-a-message-queue" title="Permalink to this headline">¶</a></h2>
-<p>One might argue that all this is not as simple, since an additional service ?C the Redis data server
-?C must run side by side with Django. Websockets are bidirectional but their normal use case is to
+<p>One might argue that all this is not as simple, since an additional service - the Redis data server
+- must run side by side with Django. Websockets are bidirectional but their normal use case is to
 trigger server initiated events on the client. Although the other direction is possible, it can
-be handled much easier using Ajax ?C adding an additional TCP/IP handshake.</p>
-<p>Here, the only ??stay in touch with the client?? is the file descriptor attached to the websocket.
+be handled much easier using Ajax - adding an additional TCP/IP handshake.</p>
+<p>Here, the only &#8220;stay in touch with the client&#8221; is the file descriptor attached to the websocket.
 And since we speak about thousands of open connections, the footprint in terms of memory and CPU
 resources must be brought down to a minimum. In this implementation, only one open file handle
 is required for each open websocket connection.</p>
@@ -159,6 +167,12 @@ prefer OSI level 7, the excellent <a class="reference external" href="http://blo
 </li>
 </ul>
 
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Hey! Welcome to my document.</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="installation.html"
+                        title="next chapter">&lt;no title&gt;</a></p>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
@@ -189,6 +203,12 @@ prefer OSI level 7, the excellent <a class="reference external" href="http://blo
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
+        <li class="right" >
+          <a href="installation.html" title="&lt;no title&gt;"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Hey! Welcome to my document."
+             >previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">test_docs 1.0 documentation</a> &raquo;</li> 
       </ul>
     </div>

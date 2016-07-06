@@ -1,4 +1,4 @@
-.. introduction
+.. Introduction
 
 ============
 Introduction
@@ -79,12 +79,12 @@ This approach has some advantages:
 Using Redis as a message queue
 ==============================
 
-One might argue that all this is not as simple, since an additional service ¨C the Redis data server
-¨C must run side by side with Django. Websockets are bidirectional but their normal use case is to
+One might argue that all this is not as simple, since an additional service - the Redis data server
+- must run side by side with Django. Websockets are bidirectional but their normal use case is to
 trigger server initiated events on the client. Although the other direction is possible, it can
-be handled much easier using Ajax ¨C adding an additional TCP/IP handshake.
+be handled much easier using Ajax - adding an additional TCP/IP handshake.
 
-Here, the only ¡°stay in touch with the client¡± is the file descriptor attached to the websocket.
+Here, the only "stay in touch with the client" is the file descriptor attached to the websocket.
 And since we speak about thousands of open connections, the footprint in terms of memory and CPU
 resources must be brought down to a minimum. In this implementation, only one open file handle
 is required for each open websocket connection.
