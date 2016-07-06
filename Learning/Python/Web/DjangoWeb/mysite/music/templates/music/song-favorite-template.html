@@ -1,0 +1,12 @@
+
+{% load staticfiles %}
+
+<a href="{% url 'music:favorite' song.id %}">
+
+	{% if song.is_favorite %}
+		<img src="{% static 'music/images/like.png' %}" alt='like' />
+	{% else %}
+		<img src="{% static 'music/images/unlike.png' %}" alt='unlike' />
+	{% endif %}
+
+</a>

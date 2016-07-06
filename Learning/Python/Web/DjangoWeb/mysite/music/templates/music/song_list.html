@@ -1,0 +1,44 @@
+{% extends 'music/base.html' %}
+
+{% block title %}All Songs{% endblock %}
+
+
+{% block body %}
+{% load staticfiles %}
+{% if songs %}
+	<ul class="list-group">
+		<li class="list-group-item list-group-item-info">
+			<h4 class="list-group-heading">
+				<div class="row">
+					<div class="col-md-2">曲目</div>
+					<div class="col-md-2">专辑</div>
+					<div class="col-md-2">歌手</div>
+					<div class="col-md-2">类型</div>
+					<div class="col-md-1">喜欢</div>
+					<div class="col-md-1">播放</div>
+					<div class="col-md-1">删除</div>
+
+				</div>
+			</h4>
+		</li>
+		{% for song in songs %}
+	    <li class="list-group-item list-group-item-success">
+		    <div class="row">
+		    	<a href="#" class="col-md-2">{{ song.song_title }}</a>
+		    	<a href="{% url 'music:detail' song.album.id %}" class="col-md-2">{{ song.album }}</a>
+		    	<a href="#" class="col-md-2">{{ song.album.artist }}</a>
+		    	<a href="#" class="col-md-2">{{ song.album.genre }}</a>
+		    	<div href="" class="col-md-1">
+		    		{% include 'music/song-favorite-template.html' %}
+		    	</div>
+		    	<a href="{{ song.audio_file.url }}" class="col-md-1" target="_blank" title="Play"><span class="glyphicon glyphicon-headphones"></span></a>
+		    	<a href="{% url 'music:song-delete' song.id %}" class="col-md-1" title="Delete"><span class="glyphicon glyphicon-trash"></span></a>
+		    </div>
+		</li>
+		{% endfor %}	
+	</ul>
+{% else %}
+	<p class="alert-waring">You have no songs.</p>
+{% endif %}
+
+{% endblock %}

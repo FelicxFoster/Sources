@@ -1,0 +1,18 @@
+body {
+	background: url('images/bg.jpg') no-repeat center fixed;	
+}
+
+.navbar {
+	border-radius: 0;
+}
+
+@font-face {
+  font-family: 'Satisfy';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Satisfy'), url('fonts/Satisfy.woff2') format('woff2');
+}
+
+.navbar-brand {
+	font-family: 'Satisfy', fantasy;
+}

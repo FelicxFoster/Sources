@@ -1,0 +1,60 @@
+{% extends 'personal/base.html' %}
+
+{% block title %}
+<title>Sign Up</title>
+{% endblock %}
+
+{% block content %}
+
+
+<div class="jumbotron" style="background:rgba(0,0,255,0.2)">
+	<h2 class="text-primary">欢迎注册</h2>
+	<form role="form" class="form-horizontal text-primary" action="#" method="get">
+		<div class="form-group"> 
+			<label class="col-sm-4 control-label">Name:</label>
+			<div class="col-sm-8">
+				<input type='text' placeholder="Enter your name" />
+			</div>
+		</div>
+		<div class="form-group"> 
+			<label class="col-sm-4 control-label">Email:</label>
+			<div class="col-sm-8">
+				<input type='email' placeholder="Enter your Email" />
+			</div>
+		</div>
+		<div class="form-group"> 
+			<label class="col-sm-4 control-label">Password:</label>
+			<div class="col-sm-8">
+				<input type='password' placeholder="Enter your password" />
+			</div>
+		</div>
+		<div class="form-group"> 
+			<label class="col-sm-4 control-label">Password:</label>
+			<div class="col-sm-8">
+				<input type='password' placeholder="Enter your password again" />
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<div class="col-sm-offset-4 col-sm-8">
+				<div class="checkbox">
+					<label>
+					<input type="checkbox" /><small>我已阅读并接受<a href="http://baike.baidu.com/subview/837441/10940763.htm?fromtitle=%E6%B5%B7%E8%B4%BC%E7%8E%8B&fromid=3426900&type=syn#viewPageContent" target="_blank">《海贼王条约》</a></small>
+					</label>
+				</div>
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<div class="col-sm-offset-4">
+				<button type="submit" class="btn btn-primary" >立即注册</button>
+			</div>
+		</div>
+				
+		
+	</form>
+</div>
+
+
+
+{% endblock %}
