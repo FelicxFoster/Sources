@@ -1,0 +1,50 @@
+.holy{
+    background: grey;
+    border: 5px solid #dddddd;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header, footer{
+    background: cadetblue;
+    display: flex;
+    flex: 0 0 50px;
+}
+
+.holy-body{
+    background: green;
+    display: flex;
+    flex: 1;
+}
+
+.holy-content{
+    flex: 1;
+}
+
+.holy-ads{
+    background: deepskyblue;
+    flex: 0 0 12em;
+}
+
+.holy-nav{
+    background: orangered;
+    flex: 0 0 12em;
+    order: -1;
+}
+
+@media (max-width: 768px) {
+    .holy-body{
+        flex-direction: column;
+        flex: 1;
+    }
+    .holy-nav,
+    .holy-ads,
+    .holy-content{
+        flex: 1;
+    }
+}

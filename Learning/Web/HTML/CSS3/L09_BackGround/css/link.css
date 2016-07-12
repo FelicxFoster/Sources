@@ -1,0 +1,19 @@
+a:link{
+    color: #FF0000;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #00FF00;
+}
+
+a:hover{
+    color: #0000FF;
+    font-size: large;
+    font-family: fantasy;
+}
+
+a:active{
+    color: #000000;
+}
+

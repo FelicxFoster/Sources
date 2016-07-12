@@ -1,0 +1,29 @@
+h1, h2{
+    color: red;
+}
+
+body{
+    color: green;
+}
+
+li strong{
+    color: blue;
+}
+
+#divid{
+    color: red;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.divclass p{
+    color: blue;
+}
+
+/*[title]{
+    background-color: cadetblue;
+}*/
+
+[title=sb]{
+    background-color: gold;
+}

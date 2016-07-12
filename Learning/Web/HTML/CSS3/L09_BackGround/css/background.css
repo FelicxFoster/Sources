@@ -1,0 +1,17 @@
+body{
+    color: red;
+    background-color: grey;
+    background-image: url("../images/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: 800px 600px;
+}
+
+p{
+    background-color: purple;
+    color: white;
+    width: 400px;
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}

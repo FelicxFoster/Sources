@@ -1,0 +1,24 @@
+/*
+ul li{
+    color:green;
+    font-family: fantasy;
+    font-size: 50px;
+
+    */
+/*list-style: circle;*//*
+
+    */
+/*list-style-type: circle;*//*
+
+    list-style-image: url("../images/arrow.png");
+}*/
+
+ul.ul1{
+    color: red;
+    list-style-position: inside;
+}
+
+.ul2{
+    color: green;
+    list-style-position: outside;
+}

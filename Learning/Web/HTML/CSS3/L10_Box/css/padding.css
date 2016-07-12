@@ -1,0 +1,16 @@
+body{
+    background-color: grey;
+}
+
+table.in{
+    background-color: darkorchid;
+    border: blue solid 2px;
+    padding: 10px;
+}
+table.in td{
+    background-color: aqua;
+    border: black solid 1px;
+    padding: 100px;
+    font-size: 50px;
+}
+

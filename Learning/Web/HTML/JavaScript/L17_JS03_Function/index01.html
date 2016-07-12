@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        one();          //函数调用可以在声明之前
+        function one(){
+            var x = 10;     //局部变量 函数内（包括子函数）可以使用
+            function two(){
+                y = 20;     //全局变量 任何地方都能使用（所在函数被调用后!）
+                alert("x="+x);
+            }
+            two();
+        }
+        alert("y="+y);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

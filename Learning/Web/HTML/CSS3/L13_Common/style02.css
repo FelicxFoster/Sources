@@ -1,0 +1,9 @@
+p{
+    cursor: pointer;
+}
+
+li{
+    background-color: grey;
+    /*display: inline;*/
+    visibility: hidden;
+}

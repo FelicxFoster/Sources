@@ -1,0 +1,28 @@
+#container{
+    width: 400px;
+    height:600px;
+    background: grey;
+}
+
+#fd{
+    width: 150px;
+    height: 200px;
+    background-color: red;
+    float: left;
+}
+#sd{
+    width: 200px;
+    height: 150px;
+    background-color: green;
+    float: left;
+}
+#td{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    float: left;
+}
+
+#text{
+    clear: both;
+}

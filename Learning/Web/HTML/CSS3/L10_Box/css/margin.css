@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    background-color: grey;
+}
+
+.mg{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+}
+
+/*外边距盒子*/
+.container{
+    background: blue;
+    margin: 100px;
+}
+.bd{
+    color: red;
+    border-style: dotted;
+}
+.pd{
+    padding: 100px;
+}
+.content{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    background-color: black;
+}
+
+/*外边距合并*/
+.container1{
+    background: blue;
+    margin: 100px;
+}
+.bd1{
+    color: red;
+    border-style: dotted;
+}
+.pd1{
+    padding: 100px;
+}
+.content1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    background-color: black;
+}

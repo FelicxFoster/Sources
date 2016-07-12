@@ -1,0 +1,15 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    animation: anim 4s infinite alternate;
+}
+
+@keyframes anim{
+    0%{background: red; top: 0px; left: 0px}
+    25%{background: blue; top: 100px; left: 0px}
+    50%{background: black; top: 100px; left: 100px}
+    75%{background: white; top: 0px; left: 100px}
+    100%{background: green; top: 0px; left: 0px}
+}

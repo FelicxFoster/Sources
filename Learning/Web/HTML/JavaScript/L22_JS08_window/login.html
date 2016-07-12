@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <form>
+        <input type="text" id="username"/>
+    </form>
+    <button onclick="detection()">提交</button>
+    <script>
+        function detection(){
+            var uname = document.getElementById("username").value;
+            if( uname == "admin" ){
+                history.go(-1);
+            }else{
+                alert("Bad uername!");
+            }
+        }
+    </script>
+</body>
+</html>

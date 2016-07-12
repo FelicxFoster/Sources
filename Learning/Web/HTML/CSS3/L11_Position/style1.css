@@ -1,0 +1,27 @@
+#positon1{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    z-index: 2;
+}
+#positon2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 125px;
+    top: 75px;
+    z-index: 3;
+}
+#positon3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 4;
+}

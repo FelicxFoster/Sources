@@ -1,0 +1,22 @@
+#time{
+    width: 180px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    font-family: fantasy;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+
+    animation: anim 5s infinite;
+    -webkit-animation: anim 5s infinite alternate;
+}
+
+@keyframes anim{
+    0%{color: white; left: 0%;}
+    25%{color: coral; left: 20%;}
+    50%{color: red; left: 40%;}
+    75%{color: lightseagreen; left: 60%;}
+    100%{color: green; left: 85%}
+}

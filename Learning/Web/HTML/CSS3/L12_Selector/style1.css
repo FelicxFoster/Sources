@@ -1,0 +1,26 @@
+#p1{
+    color: red;
+}
+
+#p2{
+    font-size: 30px;
+}
+
+#p3{
+    font-family: fantasy;
+}
+
+
+p i{
+    font-size: 50px;
+}
+
+/*隔代不生效*/
+p>a{
+    font-size: 40px;
+}
+
+/*相邻兄弟选择器*/
+p+li{
+    font-size: 50px;
+}

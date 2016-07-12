@@ -1,0 +1,15 @@
+.container{
+    /*background-color: red;*/
+    /*-webkit-column-width: 250px;*/
+    /*column-width: 250px;*/
+    /*-webkit-column-gap: 5px;*/
+    /*column-gap: 5px;*/
+}
+
+.container div {
+    width: 250px;
+    height: auto;
+    color: blue;
+    font-size: 50px;
+    background-color: brown;
+}

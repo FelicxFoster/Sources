@@ -1,0 +1,26 @@
+#tb{
+    border: 1px solid blue;
+    /*color: darkorchid;*/
+    /*background-color: orange;*/
+    border-collapse: collapse;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+}
+
+th{
+    background-color: black;
+    color: white;
+    border: 1px dashed white;
+}
+
+tr.alt td{
+    background-color: orange;
+    color: red;
+}
+
+tr, td{
+    border: 1px dashed mediumblue;
+    color: blue;
+    background-color: chartreuse;
+}

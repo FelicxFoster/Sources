@@ -1,0 +1,19 @@
+body{
+    background-color: grey;
+
+    color: white;
+    line-height: 60px;
+    direction: ltr;
+    font-size: 30px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+p{
+    background-color: purple;
+    text-indent: -4em;
+}
+
+h2{
+    text-shadow: gold 5px -5px 2px;
+}

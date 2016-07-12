@@ -1,0 +1,12 @@
+.div{
+    width: 70%;
+    height: 950px;
+    background-color: darkblue;
+/*    margin-left: auto;
+    margin-right: auto;*/
+
+    /*position: absolute;*/
+    /*right: 0px;*/
+
+    float: right;
+}

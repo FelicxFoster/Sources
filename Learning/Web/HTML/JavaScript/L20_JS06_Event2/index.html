@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>事件处理</title>
+</head>
+<body>
+    <div id="div">
+        <button id="btn">按钮</button>
+    </div>
+<!--
+    <script>
+        function demo(){
+            alert("Hello, HTML事件处理");    //
+        }
+    </script>
+-->
+<!--    <script>
+        function demo(){
+            var btn1 = document.getElementById("btn");
+            btn1.onclick = function (){ alert("DOM0级事件处理程序1"); }
+            btn1.onclick = function (){ alert("DOM0级事件处理程序2"); }   //会覆盖前面的事件
+//            btn1.onclick = null;
+        }
+    </script>-->
+    <script>
+        var btn1 = document.getElementById("btn");
+        btn1.addEventListener("click", demo);
+        btn1.addEventListener("click", demo2);
+        btn1.addEventListener("click", demo3);
+        function demo(){ alert("DOM2级事件处理程序1"); }
+        function demo2(){ alert("DOM2级事件处理程序2"); }
+        function demo3(){ alert("DOM2级事件处理程序3"); }  //不会覆盖，依次执行
+        btn1.removeEventListener("click", demo2);
+    </script>
+
+
+</body>
+</html>

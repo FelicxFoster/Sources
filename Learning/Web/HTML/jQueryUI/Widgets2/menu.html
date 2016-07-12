@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>菜单</title>
+    <script src="jquery-2.1.4.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="menu.js"></script>
+    <link rel="stylesheet" type="text/css" href="jquery-ui.min.css">
+    <style>
+       /* #menu{
+            width: 150px;
+        }*/
+
+        .ui-menu:after{
+            content: ".";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            line-height: 0;
+            height: 0;
+        }
+        .ui-menu .ui-menu-item{
+            display: inline-block;
+            float: left;
+            margin: 0;
+            padding: 10px;
+            width: auto;
+        }
+    </style>
+</head>
+<body>
+    <ul id="menu">
+        <li>
+            <a href="#">Python</a>
+            <ul>
+                <li><a href="#">Python3</a></li>
+                <li><a href="#">PyGame</a></li>
+                <li><a href="#">Tkinter</a></li>
+            </ul>
+        </li>
+        <li>Ruby</li>
+        <li>PHP</li>
+        <li>C++</li>
+        <li>C</li>
+    </ul>
+</body>
+</html>

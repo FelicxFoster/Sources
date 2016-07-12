@@ -1,0 +1,13 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s, height 2s, transform 2s;
+    transition-delay: 1s;
+}
+
+div:hover{
+    width: 400px;
+    height: 400px;
+    transform: rotate(360deg);
+}

@@ -1,0 +1,36 @@
+div{
+    color: chartreuse;
+    width: 200px;
+    height: 200px;
+    background-color:red;
+    /*text-align: center;*/
+}
+
+/*移动*/
+/*.div2 {
+    transform: translate(200px, 100px);
+    -webkit-transfrom: translate(200px, 100px);
+}*/
+
+/*旋转*/
+/*
+.div2{
+    transform: rotate(45deg);
+}*/
+
+/*缩放*/
+/*.div2{*/
+    /*transform: scale(2,0.5);*/
+/*}*/
+
+/*倾斜*/
+/*.div2{*/
+    /*transform: skew(-40deg, 540deg);*/
+/*}*/
+
+
+/*3D旋转*/
+.div2{
+    /*transform:rotateX(30deg);*/
+    transform:rotateY(45deg);
+}

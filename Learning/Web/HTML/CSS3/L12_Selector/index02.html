@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>属性选择器</title>
+    <style>
+        [title]{
+            color: red;
+        }
+        [title="title"]{
+            font-family: fantasy;
+        }
+        [title~="title"]{
+            font-size: 50px;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+    <p title="" >This is my web page1.</p>
+    <p title="title">This is my web page2.</p>
+    <p title="title hello">This is my web page3.</p>
+    <p title="tit">This is my web page4.</p>
+    <p>This is <strong>my <i>first</i> web</strong> page4.</p>
+    <p>This is <strong>my <a>first</a> web</strong> page4.</p>
+
+    <div>
+        <ul>
+            <p>nothing</p>
+            <li>Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+        </ul>
+        <ol>
+            <li>Item11</li>
+            <li>Item22</li>
+            <li>Item33</li>
+        </ol>
+    </div>
+</body>
+</html>

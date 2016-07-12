@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: grey;
+}
+
+.grid{
+    background: green;
+    width: 800px;
+    height: 200px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.grid-cell{
+    background: darkorange;
+    width: 100px;
+    height: 50px;
+    margin: 20px 20px;
+    flex: 1;
+}
+.grid-cell2{
+    flex: 2;
+}
+
+
+.u-1of4{
+    flex: 0 0 25%;
+}
+
+.u-1of3{
+    flex: 33.3333%;
+}

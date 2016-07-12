@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>对象对象</title>
+</head>
+<body>
+    <script>
+//        创建对象 方式1 先创建对象后赋值
+        people = new Object();
+        people.name = "zoro";
+        people.age = 30;
+        document.write(people.name+people.age+"<br/>");
+
+//        创建对象 方式2 创建对象同时赋初值
+        people = {name:"zoro", age: 30};
+        document.write(people.name+people.age+"<br/>");
+
+//        创建对象 方式3 函数方法
+        function people(name, age){
+            this._name = name;   //_私有  this->实例对象本身
+            this._age = age;
+        }
+        son = new people('zoro', 30);
+        document.write(son._name+son._age+"<br/>");
+
+
+    </script>
+</body>
+</html>

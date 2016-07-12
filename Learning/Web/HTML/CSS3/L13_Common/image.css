@@ -1,0 +1,15 @@
+.container{
+    column-width: 250px;
+    -webkit-column-width: 250px;
+
+}
+
+.container div{
+    width: 250px;
+    margin: 5px 0px;
+    text-align: center;
+}
+
+img{
+    width: 250px;
+}
