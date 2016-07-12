@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1442059914 source:c:\users\sqd\desktop\c++\43-44 链接和作用域\example\that.cpp
+	"header.h"
+
+1442060413 c:\users\sqd\desktop\c++\43-44 链接和作用域\example\header.h
+
+1442060263 source:c:\users\sqd\desktop\c++\43-44 链接和作用域\example\this.cpp
+	"header.h"
+	<iostream>
+

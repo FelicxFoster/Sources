@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1442056744 source:c:\users\sqd\desktop\c++\40 模块\rational\rational.cpp
+	<iostream>
+	<stdlib.h>
+	"rational.h"
+
+1442057339 c:\users\sqd\desktop\c++\40 模块\rational\rational.h
+	<iostream>
+
+1442056675 source:c:\users\sqd\desktop\c++\40 模块\rational\main.cpp
+	<iostream>
+	"rational.h"
+
+1442057999 source:c:\users\sqd\desktop\c++\40-42 模块\rational\main.cpp
+	<iostream>
+	"rational.h"
+
+1442057834 c:\users\sqd\desktop\c++\40-42 模块\rational\rational.h
+	<iostream>
+
+1442057887 source:c:\users\sqd\desktop\c++\40-42 模块\rational\rational.cpp
+	<iostream>
+	<stdlib.h>
+	"rational.h"
+
