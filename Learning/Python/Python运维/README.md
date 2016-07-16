@@ -1,4 +1,4 @@
-# Pythonткн╛
+# Python Х©░Г╩╢
 
 ![](1.PNG)
 ![](2.PNG)
