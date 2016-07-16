@@ -1,0 +1,17 @@
+
+class PyList:
+    def __init__(self):
+        self.list = []
+
+    def insert(self, i, element):
+        for i in range( i, len(self.list) ):
+            self.list[i+1] = self.list[i]
+        self.list[i] = element
+
+
+if __name__ == '__mian__':
+    pylist = PyList()
+
+    pylist.insert(0,1)
+
+    pylist
