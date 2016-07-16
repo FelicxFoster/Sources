@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1440514689 source:c:\users\sqd\desktop\huffman\huffman.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"huffman.h"
+	"quene.h"
+
+1440510857 c:\users\sqd\desktop\huffman\huffman.h
+
+1440506906 c:\users\sqd\desktop\huffman\quene.h
+	"huffman.h"
+
+1440514665 source:c:\users\sqd\desktop\huffman\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"huffman.h"
+
+1440511432 source:c:\users\sqd\desktop\huffman\quene.cpp
+	<stdio.h>
+	<stdlib.h>
+	"quene.h"
+
